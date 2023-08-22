@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void star_right_triangle(int n){
+    for(int i=0; i<n; i++){
+        for(int j=0; j<i; j++){
+            printf("*");
+            
+        }
+        printf("\n");
+    }
+}
+
+int main(){
+
+    star_right_triangle(5);
+}
